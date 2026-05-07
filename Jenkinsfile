@@ -7,6 +7,7 @@ pipeline {
             steps {
                 echo 'Stage 1: Build'
                 echo 'Task: Compile and package the source code into a deployable artifact.'
+                echo 'Auto-triggering.'
                 echo 'Tool: Maven - used to manage dependencies and build the Java project (mvn clean package).'
             }
         }
